@@ -1,0 +1,5 @@
+---
+- hosts: master:slave
+  become: yes
+  roles:
+    - bootstrap_k3s
