@@ -4,7 +4,7 @@ master_ip_address
 [slave]
 slave_ip_address
 
-[all:var]
+[all:vars]
 ansible_connection=ssh
 ansible_user=centos
 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
